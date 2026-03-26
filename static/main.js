@@ -274,7 +274,7 @@ function animate() {
             frontBrake = normalBrake;
             rearBrake = normalBrake;
         } else {
-            engineForce = -maxForce;
+            engineForce = maxForce;
         }
     }
     if (isBackward) {
@@ -282,7 +282,7 @@ function animate() {
             frontBrake = normalBrake;
             rearBrake = normalBrake;
         } else {
-            engineForce = maxForce / 2; // reverse slower
+            engineForce = -maxForce / 2; // reverse slower
         }
     }
 

@@ -2,7 +2,7 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     user-select: none;
 }
 
@@ -17,7 +17,7 @@ canvas {
     bottom: 30px;
     left: 30px;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     pointer-events: none;
     z-index: 10;
 }
@@ -30,7 +30,7 @@ canvas {
     padding: 15px 30px;
     border-radius: 16px;
     border: 3px solid rgba(255, 255, 255, 0.8);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(8px);
     display: inline-block;
 }
@@ -49,4 +49,25 @@ canvas {
     display: inline-block;
     border: 1px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(5px);
+}
+
+.gear-ui {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 16px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+#gear-value {
+    color: #ffcc00;
+}
+
+.gear-mode {
+    font-size: 0.9rem;
+    opacity: 0.8;
 }

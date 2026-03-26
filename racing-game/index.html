@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Racing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="ui">
+        <div class="speed">Speed: <span id="speed-value">0</span> <span
+                style="font-size: 1.2rem; opacity: 0.8;">km/h</span></div>
+        <div class="controls">Controls: WASD/Arrows to drive.<br>Space: Handbrake | C: Change Camera</div>
+    </div>
+
+    <!-- ES Module Import Map -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/",
+                "cannon-es": "https://cdn.jsdelivr.net/npm/cannon-es@0.20.0/+esm"
+            }
+        }
+    </script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
